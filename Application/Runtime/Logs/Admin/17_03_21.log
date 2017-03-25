@@ -1,0 +1,3 @@
+[ 2017-03-21T08:31:01+08:00 ] ::1 /yq/index.php/Admin/Index/test
+ERR: Think\Model:selectData方法不存在！
+

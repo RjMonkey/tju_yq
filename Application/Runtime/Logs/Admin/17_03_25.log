@@ -1,0 +1,64 @@
+[ 2017-03-25T15:56:23+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.messageid' in 'field list'
+ [ SQL语句 ] : SELECT yq_message.messageid,yq_message.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:57:17+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'a.yq_message.messageid' in 'field list'
+ [ SQL语句 ] : SELECT a.yq_message.messageid,yq_message.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:57:28+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.userid' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,yq_message.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:57:41+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.messageid' in 'field list'
+ [ SQL语句 ] : SELECT yq_message.messageid,yq_message.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:57:47+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.userid' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,yq_message.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:57:55+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.score' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,yq_message.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:58:00+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.title' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,yq_message.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:58:07+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.content' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,yq_message.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:58:12+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.createtime' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,yq_message.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:58:19+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.click' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,yq_message.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:58:42+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1052:Column 'userid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:59:26+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'a.yq_message.userid' in 'field list'
+ [ SQL语句 ] : SELECT a.messageid,a.yq_message.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T15:59:51+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1052:Column 'userid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE `userid` = 1 ORDER BY yq_type.id desc LIMIT 0,20  
+
+[ 2017-03-25T16:01:03+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.userid' in 'where clause'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE yq_message.userid = 1 ORDER BY id desc LIMIT 0,20  
+
+[ 2017-03-25T16:01:36+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.message' in 'on clause'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.message INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE yq_user_collection.userid = 1 ORDER BY id desc LIMIT 0,20  
+
+[ 2017-03-25T16:01:59+08:00 ] ::1 /yq/index.php/Admin/Love
+ERR: 1054:Unknown column 'yq_message.messageid' in 'on clause'
+ [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.messageid INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE yq_user_collection.userid = 1 ORDER BY id desc LIMIT 0,20  
+

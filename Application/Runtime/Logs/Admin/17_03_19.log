@@ -1,0 +1,636 @@
+[ 2017-03-19T08:04:07+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+
+[ 2017-03-19T08:05:29+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 590 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 594 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 598 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 602 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 606 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 610 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 614 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 618 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\yq\ThinkPHP\Library\Think\View.class.php 第 91 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-03-19T08:06:55+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-03-19T08:07:05+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-03-19T08:20:33+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0096s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:22:06+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0062s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:22:08+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0041s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:22:25+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+
+[ 2017-03-19T08:22:34+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+ERR: 1146:Table 'tjuyq.yq_auth_group_access' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yq_auth_group_access`
+
+[ 2017-03-19T08:22:46+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0050s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:24:41+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0045s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:24:54+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0052s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:27:07+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:1.6212s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T08:33:34+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0050s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T15:51:51+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0041s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T15:51:53+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0043s ]
+ERR: Think\Model:getTreeData方法不存在！
+
+[ 2017-03-19T15:52:28+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `yq_announce`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2017-03-19T15:54:48+08:00 ] ::1 /yq/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 590 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 594 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 598 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 602 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 606 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 610 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 614 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\yq\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 618 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\yq\ThinkPHP\Library\Think\View.class.php 第 91 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001930s ]
+
+[ 2017-03-19T15:54:55+08:00 ] ::1 /yq/index.php/Admin/User/my_center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-03-19T15:54:59+08:00 ] ::1 /yq/index.php/Admin/Rule/rule_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `admin_auth_rule` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `admin_auth_rule` ORDER BY id is null,id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-03-19T15:55:32+08:00 ] ::1 /yq/index.php/Admin/Rule/rule_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `admin_auth_rule` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `admin_auth_rule` ORDER BY id is null,id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-03-19T17:30:37+08:00 ] ::1 /yq/index.php/Admin/Rule/rule_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+ERR: 1146:Table 'tjuyq._auth_rule' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `_auth_rule`
+ERR: 1146:Table 'tjuyq._auth_rule' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `_auth_rule`
+
+[ 2017-03-19T17:30:52+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: 1146:Table 'tjuyq._announce' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `_announce`
+ERR: 1146:Table 'tjuyq._announce' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `_announce`
+
+[ 2017-03-19T17:31:08+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0051s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` ORDER BY createtime, desc 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` ORDER BY createtime, desc 
+
+[ 2017-03-19T17:31:32+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY createtime  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-03-19T17:31:54+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2017-03-19T17:31:56+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-03-19T17:50:44+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.2937s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY createtime desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-19T18:10:20+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2017-03-19T18:10:22+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-03-19T18:10:24+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2017-03-19T18:10:34+08:00 ] ::1 /yq/index.php/Admin/login'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+ERR: 无法加载控制器:Login'
+
+[ 2017-03-19T18:10:42+08:00 ] ::1 /yq/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `yq_user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `yq_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 30 行.
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR D:\xampp\htdocs\yq\Application\Common\Common\function.php 第 1389 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\xampp\htdocs\yq\Application\Common\Common\function.php 第 1391 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001437s ]
+
+[ 2017-03-19T18:10:55+08:00 ] ::1 /yq/index.php/Admin/login'
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+ERR: 无法加载控制器:Login'
+
+[ 2017-03-19T18:14:05+08:00 ] ::1 /yq/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `yq_user` [ RunTime:1.6616s ]
+SQL: SELECT * FROM `yq_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: HTTP_X_FORWARDED_FOR D:\xampp\htdocs\yq\Application\Common\Common\function.php 第 1389 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\xampp\htdocs\yq\Application\Common\Common\function.php 第 1391 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2017-03-19T18:14:48+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.3045s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001487s ]
+
+[ 2017-03-19T18:23:38+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-03-19T19:39:39+08:00 ] ::1 /yq/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `yq_announce` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `yq_announce` ORDER BY stick  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `yq_message` ORDER BY createtime desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `yq_school` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `yq_school` ORDER BY score desc LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-03-19T20:35:26+08:00 ] ::1 /yq/index.php/Admin/Index/element
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 非法操作:element
+
+[ 2017-03-19T20:35:32+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-03-19T20:36:09+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-03-19T20:38:02+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0075s ]
+ERR: 1146:Table 'tjuyq.tjuyq_permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN tjuyq_permission on tjuyq_group_permission.permid = tjuyq_permission.permid  WHERE `groupid` = 1 
+ERR: 1146:Table 'tjuyq.tjuyq_permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN tjuyq_permission on tjuyq_group_permission.permid = tjuyq_permission.permid  WHERE `groupid` = 1 
+
+[ 2017-03-19T20:38:40+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0071s ]
+ERR: 1146:Table 'tjuyq.permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN permission on group_permission.permid = permission.permid  WHERE `groupid` = 1 
+ERR: 1146:Table 'tjuyq.permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN permission on group_permission.permid = permission.permid  WHERE `groupid` = 1 
+
+[ 2017-03-19T20:39:30+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0047s ]
+ERR: 1146:Table 'tjuyq.permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN permission on group_permission.permid = permission.permid  WHERE `groupid` = 1 
+ERR: 1146:Table 'tjuyq.permission' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `yq_group_permission` INNER JOIN permission on group_permission.permid = permission.permid  WHERE `groupid` = 1 
+
+[ 2017-03-19T20:39:51+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `yq_group_permission` INNER JOIN yq_permission on yq_group_permission.permid = yq_permission.permid  WHERE `groupid` = 1  [ RunTime:0.0499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-03-19T20:39:59+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xampp\htdocs\yq\Application\Admin\Controller\IndexController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `yq_group_permission` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `yq_group_permission` INNER JOIN yq_permission on yq_group_permission.permid = yq_permission.permid  WHERE `groupid` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2017-03-19T20:45:43+08:00 ] ::1 /yq/index.php/Admin/Index/elements
+ERR: 1052:Column 'permname' in field list is ambiguous
+ [ SQL语句 ] : SELECT `permname`,`action` FROM `yq_group_permission` INNER JOIN yq_permission on yq_group_permission.permid = yq_permission.permid  WHERE `groupid` = 1 
+

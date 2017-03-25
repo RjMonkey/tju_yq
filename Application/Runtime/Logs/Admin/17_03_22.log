@@ -1,0 +1,9 @@
+[ 2017-03-22T09:49:22+08:00 ] ::1 /yq/index.php/Admin/Message
+ERR: 非法操作:index
+
+[ 2017-03-22T09:49:30+08:00 ] ::1 /yq/index.php/Admin/Message/single
+ERR: Think\Model:getData方法不存在！
+
+[ 2017-03-22T10:38:09+08:00 ] ::1 /yq/index.php/Admin/Message
+ERR: 非法操作:index
+
