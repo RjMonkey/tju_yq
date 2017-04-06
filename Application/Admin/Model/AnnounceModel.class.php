@@ -13,9 +13,4 @@ class AnnounceModel extends Model {
         return $this->select();
     }
 
-    public function getJoinData($table, $l_id, $r_id)
-    {
-        $this   ->join($table.' on yq_announce.'.$l_id.' = '.$r_id)
-                ->order('yq_announce.createtime desc, stick desc')->select();
-    }
 }

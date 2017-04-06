@@ -28,8 +28,8 @@ class IndexController extends AdminBaseController{
 		$announcement = D('Announce')->order('createtime desc')->order('stick')->select();
 		$score = D('School')->order('score desc')->limit(3)->select();
 
-		stand_date($message);
-		stand_date($announcement);
+		$message = stand_date($message);
+		$announcement = stand_date($announcement);
 
 		$result['announcement'] = $announcement;
 		$result['message'] = $message;

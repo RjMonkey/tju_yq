@@ -1,0 +1,48 @@
+[ 2017-03-26T14:48:39+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: Think\Model:getUser方法不存在！
+
+[ 2017-03-26T14:50:25+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: Think\Model:getUser方法不存在！
+
+[ 2017-03-26T14:50:27+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: Think\Model:getUser方法不存在！
+
+[ 2017-03-26T14:50:43+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1146:Table 'tjuyq.a' doesn't exist
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,`groupname`,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN a yq_user_group on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupname  LIMIT 0,20  
+
+[ 2017-03-26T14:51:47+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1052:Column 'groupname' in field list is ambiguous
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,`groupname`,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupname  LIMIT 0,20  
+
+[ 2017-03-26T14:52:06+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,a.groupname,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupname  LIMIT 0,20  
+
+[ 2017-03-26T14:53:39+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,a.groupname,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupid    LIMIT 0,20  
+
+[ 2017-03-26T14:53:49+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,a.groupname,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupid  LIMIT 0,20  
+
+[ 2017-03-26T14:54:24+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1052:Column 'groupname' in field list is ambiguous
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,`groupname`,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupid  LIMIT 0,20  
+
+[ 2017-03-26T14:54:49+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,b.groupname,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group b  on a.groupid = yq_group.groupid  LIMIT 0,20  
+
+[ 2017-03-26T14:55:38+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,b.groupname,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group b  on a.groupid = yq_group.groupid  LIMIT 0,20  
+
+[ 2017-03-26T14:55:47+08:00 ] ::1 /yq/index.php/Admin/User/user
+ERR: 1054:Unknown column 'yq_user_group.userid' in 'on clause'
+ [ SQL语句 ] : SELECT yq_user.userid,yq_user.username,`lastip`,`lastlogintime`,`schname`,`groupname`,`realname` FROM `yq_user` LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid LEFT JOIN yq_user_group a on yq_user.userid = yq_user_group.userid LEFT JOIN yq_group on a.groupid = yq_group.groupid  LIMIT 0,20  
+
+[ 2017-03-26T18:55:45+08:00 ] ::1 /yq/index.php/Admin/User/index'
+ERR: 非法操作:index'
+

@@ -30,6 +30,7 @@ class UserController extends AdminBaseController{
 		$map['username'] = $data['username'];
 		$result = array();
 		$response = array();
+
 		//更改密码,密码有东西
 		if($old_pass && $new_pass && $confirm_pass){
 			if(!(D('User')->where($map)->find())){
@@ -62,20 +63,27 @@ class UserController extends AdminBaseController{
 		}
 	}
 
+
+	//在线
 	public function online(){
 		$p = I('post.page');
-		$list = D('Session')->getOnline($p);
-		$result['result'] = $list;
-		$result['is_err'] = 0;
+		$result = D('User')->getOnline($p);
+
+		$response['result'] = $result;
+		$response['is_err'] = 0;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($result);
 		exit;
 	}
+
+
 	//日志
 	public function user(){
 		$p = I('post.page');
-		$result = D('User')->getUser($p);
+		$result = D('User')->getLog($p);
 		$response['is_err'] = 0;
 		$response['result'] = $result;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($response);
 		exit;
 	}
@@ -85,10 +93,11 @@ class UserController extends AdminBaseController{
 		$result = D('User')->getUser($p);
 		$response['is_err'] = 0;
 		$response['result'] = $result;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($response);
 		exit;
 	}
-	//封印
+	//封印用户
 	public function ban(){
 		$id = I('post.id');
 		if(D('User')->ban($id)){
@@ -101,24 +110,33 @@ class UserController extends AdminBaseController{
 		echo json_encode($response);
 		exit;
 	}
-	public function school_search(){
-		$map['schname'] = trim(I('post.school'));
+
+	public function search(){
+		$schname = trim(I('post.school'));
+		if($schname)
+			$map['schname'] = $schname;
+		$username = trim(I('post.username'));
+		if($username)
+			$map['username'] = $username;
 		$p = I('post.page');
 		$result = D('User')->getUser($p, $map);
 		$response['is_err'] = 0;
 		$response['result'] = $result;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($response);
 		exit;
 	}
-	public function user_search(){
-		$map['username'] = trim(I('post.username'));
-		$p = I('post.page');
-		$result = D('User')->getUser($p, $map);
-		$response['is_err'] = 0;
-		$response['result'] = $result;
-		echo json_encode($response);
-		exit;
-	}
+
+//	public function user_search(){
+//		$map['username'] = trim(I('post.username'));
+//		$p = I('post.page');
+//		$result = D('User')->getUser($p, $map);
+//		$response['is_err'] = 0;
+//		$response['result'] = $result;
+//		$response['max_page'] = count($result)/10;
+//		echo json_encode($response);
+//		exit;
+//	}
 
 
 }

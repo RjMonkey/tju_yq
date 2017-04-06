@@ -1,0 +1,24 @@
+[ 2017-03-27T22:55:19+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT `keyid`,`keyname`,yq_message.createtime FROM `yq_key` INNER JOIN LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20  
+
+[ 2017-03-27T22:56:41+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT `keyid`,`keyname`,yq_message.createtime FROM `yq_key` INNER JOIN LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20  
+
+[ 2017-03-27T22:56:43+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT `keyid`,`keyname`,yq_message.createtime FROM `yq_key` INNER JOIN LEFT ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20  
+
+[ 2017-03-27T22:56:47+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT ON yq_message on yq_key.messageid = yq_message.messageid' at line 1
+ [ SQL语句 ] : SELECT `keyid`,`keyname`,yq_message.createtime FROM `yq_key` INNER JOIN LEFT ON yq_message on yq_key.messageid = yq_message.messageid  
+
+[ 2017-03-27T22:58:06+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT ON yq_message on yq_key.messageid = yq_message.messageid' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_key` INNER JOIN LEFT ON yq_message on yq_key.messageid = yq_message.messageid  
+
+[ 2017-03-27T22:58:41+08:00 ] ::1 /yq/index.php/Admin/Key
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20' at line 1
+ [ SQL语句 ] : SELECT `keyid`,`keyname`,yq_message.createtime FROM `yq_key` LEFT JOIN ON yq_message on yq_key.messageid = yq_message.messageid  LIMIT 0,20  
+

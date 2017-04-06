@@ -36,6 +36,7 @@ class UserCollectionModel extends Model {
             ->page($p.', 10')
             ->select();
 
+        $result = stand_date($result);
         return $result;
     }
 
@@ -48,25 +49,5 @@ class UserCollectionModel extends Model {
             return false;
         }
     }
-    //日志
-    public function getUser($p = 1, $map = null){
-        $result = $this
-            ->join('LEFT JOIN yq_school on yq_user.schoolid = yq_school.schoolid')
-            ->join('LEFT JOIN a yq_user_group on yq_user.userid = yq_user_group.userid')
-            ->join('LEFT JOIN yq_group on a.groupid = yq_group.groupname')
-            ->field('yq_user.userid, yq_user.username, lastip, lastlogintime, schname, groupname, realname')
-            ->where($map)
-            ->page($p.', 10')
-            ->select();
-        stand_date($result);
-        return $result;
-    }
 
-    public function ban($id)
-    {
-        $map['userid'] = $id;
-        $map['ban'] = 1;
-        return $this->save($map);
-
-    }
 }

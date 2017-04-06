@@ -62,3 +62,44 @@ ERR: 1054:Unknown column 'yq_message.message' in 'on clause'
 ERR: 1054:Unknown column 'yq_message.messageid' in 'on clause'
  [ SQL语句 ] : SELECT a.messageid,a.userid,`schname`,a.score,a.title,a.content,a.createtime,a.click,`type` FROM `yq_user_collection` INNER JOIN yq_message a on yq_user_collection.messageid = yq_message.messageid INNER JOIN yq_type on a.typeid = yq_type.typeid INNER JOIN yq_school on a.schoolid = yq_school.schoolid  WHERE yq_user_collection.userid = 1 ORDER BY id desc LIMIT 0,20  
 
+[ 2017-03-25T19:12:00+08:00 ] ::1 /yq/index.php/Admin/Index/inedx
+ERR: 非法操作:inedx
+
+[ 2017-03-25T19:33:14+08:00 ] ::1 /yq/index.php/Admin/Message/single
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `yq_message` [ RunTime:0.0036s ]
+SQL: SELECT `messageid`,`userid`,`schname`,yq_message.score,`title`,`content`,`createtime`,`click`,`type` FROM `yq_message` INNER JOIN yq_school on yq_message.schoolid = yq_school.schoolid INNER JOIN yq_type on yq_message.typeid = yq_type.typeid  WHERE `userid` = 1 AND `product` <> 1 AND `is_delete` = 0 ORDER BY createtime desc LIMIT 0,10   [ RunTime:0.0028s ]
+
+[ 2017-03-25T20:21:32+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:21:53+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:21:55+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:22:01+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:22:56+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:23:07+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+
+[ 2017-03-25T20:23:34+08:00 ] ::1 /yq/index.php/Admin/Announce/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join yq_announce.createtime desc, stick desc' at line 1
+ [ SQL语句 ] : SELECT * FROM `yq_announce` left join yq_user on yq_announce.userid = yq_user.userid  ORDER BY left join yq_announce.createtime desc, stick desc 
+

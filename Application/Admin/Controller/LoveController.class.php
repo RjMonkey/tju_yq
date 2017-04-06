@@ -14,59 +14,78 @@ class LoveController extends AdminBaseController{
 		$result = D('User_collection')->getData(null, $p);
 		$response['is_err'] = 0;
 		$response['result'] = $result;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($response);
 		exit;
 	}
 
 	//日期搜索
-	public function search_date(){
+	public function search(){
 		$p = I('post.page');
 		$date1 = strtotime(I('post.date1'));
 		$date2 = strtotime(I('post.date2'));
-		$map['yq_message.createtime'] = array('gt', $date1);
-		$map['yq_message.createtime'] = array('lt', $date2);
+		if($date1)
+			$map['yq_message.createtime'] = array('gt', $date1);
+		if($date2)
+			$map['yq_message.createtime'] = array('lt', $date2);
 
-		$result = D('User_collection')->getData($map, $p);
-		$response['is_err'] = 0;
-		$response['result'] = $result;
-		echo json_encode($response);
-		exit;
-	}
-	//关键字
-	public function search_key(){
-		$p = I('post.page');
 		$key = I('post.keywords');
-		$map['yq_message.title'] = array('like', $key);
+		if($key)
+			$map['yq_message.title'] = array('like', $key);
 
-		$result = D('User_collection')->getData($map, $p);
-		$response['is_err'] = 0;
-		$response['result'] = $result;
-		echo json_encode($response);
-		exit;
-	}
-	//学院
-	public function search_school(){
-		$p = I('post.page');
 		$school = I('post.school');
-		$map['schname'] = $school;
+		if($school)
+			$map['schname'] = $school;
+
+		$type = I('post.type');
+		if($type)
+			$map['type'] = $type;
 
 		$result = D('User_collection')->getData($map, $p);
 		$response['is_err'] = 0;
 		$response['result'] = $result;
+		$response['max_page'] = count($result)/10;
 		echo json_encode($response);
 		exit;
 	}
-	//类别
-	public function type(){
-		$p = I('post.page');
-		$map['type'] = I('post.type');
-
-		$result = D('User_collection')->getData($map, $p);
-		$response['is_err'] = 0;
-		$response['result'] = $result;
-		echo json_encode($response);
-		exit;
-	}
+//	//关键字
+//	public function search_key(){
+//		$p = I('post.page');
+//		$key = I('post.keywords');
+//		$map['yq_message.title'] = array('like', $key);
+//
+//		$result = D('User_collection')->getData($map, $p);
+//		$response['is_err'] = 0;
+//		$response['result'] = $result;
+//		$response['max_page'] = count($result)/10;
+//		echo json_encode($response);
+//		exit;
+//	}
+//	//学院
+//	public function search_school(){
+//		$p = I('post.page');
+//		$school = I('post.school');
+//		$map['schname'] = $school;
+//
+//		$result = D('User_collection')->getData($map, $p);
+//		$response['is_err'] = 0;
+//		$response['result'] = $result;
+//		$response['max_page'] = count($result)/10;
+//		echo json_encode($response);
+//		exit;
+//	}
+//	//类别
+//	public function type(){
+//		$p = I('post.page');
+//		$map['type'] = I('post.type');
+//
+//		$result = D('User_collection')->getData($map, $p);
+//		$response['is_err'] = 0;
+//		$response['result'] = $result;
+//		$response['max_page'] = count($result)/10;
+//		echo json_encode($response);
+//		exit;
+//	}
 	//删除
 	public function del(){
 		$id = I('post.id');

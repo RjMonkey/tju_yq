@@ -52,7 +52,7 @@ function app_upload_image($path,$maxSize=52428800){
 function new_oss(){
     vendor('Alioss.autoload');
     $config=C('ALIOSS_CONFIG');
-    $oss=new \OSS\OssClient($config['KEY_ID'],$config['KEY_SECRET'],$config['END_POINT']);
+    $oss=new \OSS0\OssClient($config['KEY_ID'],$config['KEY_SECRET'],$config['END_POINT']);
     return $oss;
 }
 
@@ -1412,7 +1412,25 @@ function cout($arr){
 function stand_date($arr = array()){
     foreach($arr as $i => $item){
         $arr[$i]['createtime'] = date('Y-m-d H:i:s', $arr[$i]['createtime']);
+
+        //缩减title
+        if($arr[$i]['title']){
+            $arr[$i]['title_detail'] = $arr[$i]['title'];
+            $arr[$i]['title'] = mb_substr($arr[$i]['title'], 0, 6)."...";
+        }
+
+        //获取回复数
+        if($arr[$i]['messageid']){
+            $arr[$i]['reply'] = D('Reply')->replyCounts($arr[$i]['messageid']);
+        }
+        elseif($arr[$i]['yq_message.messageid']){
+            $arr[$i]['reply'] = D('Reply')->replyCounts($arr[$i]['yq_message.messageid']);
+        }
+        elseif($arr[$i]['a.messageid']){
+            $arr[$i]['reply'] = D('Reply')->replyCounts($arr[$i]['a.messageid']);
+        }else{$arr[$i]['reply'] = 0;}
     }
+    return $arr;
 }
 
 function arr_clean($arr = array()){

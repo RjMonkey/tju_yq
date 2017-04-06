@@ -21,7 +21,7 @@ class MessageModel extends Model {
                     ->order('createtime desc')
                     ->page($page.', 10')
                     ->select();
-        stand_date($message);
+        $message = stand_date($message);
         return $message;
     }
     //软删除舆情
@@ -42,9 +42,9 @@ class MessageModel extends Model {
             ->join('yq_type on yq_message.typeid = yq_type.typeid')
             ->join('yq_user on yq_message.userid = yq_user.userid')
             ->where($map)
-            ->field('yq_message.messageid, yq_message.userid, schname, yq_message.score, yq_message.title, yq_message.content, yq_message.createtime, click, type, username')
+//            ->field('yq_message.messageid, yq_message.userid, schname, yq_message.score, yq_message.title, yq_message.content, yq_message.createtime, click, type, username')
             ->find();
-        stand_date($message);
+        $message = stand_date($message);
         return $message;
     }
 }
